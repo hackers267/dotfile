@@ -1,0 +1,18 @@
+[submodule "alacritty"]
+	path = alacritty
+	url = ./alacritty/.git
+[submodule "awesome"]
+	path = awesome
+	url = ./awesome/.git
+[submodule "nushell"]
+	path = nushell
+	url = ./nushell/.git
+[submodule "nvim"]
+	path = nvim
+	url = ./nvim/.git
+[submodule "picom"]
+	path = picom
+	url = ./picom/.git
+[submodule "rofi"]
+	path = rofi
+	url = ./rofi/.git
