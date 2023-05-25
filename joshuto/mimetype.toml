@@ -1,26 +1,26 @@
 [class]
 audio_default	= [
-	{ command = "mpv", args = [ "--" ] },
+	{ command = "vlc", args = [ "--" ] },
 	{ command = "mediainfo", confirm_exit = true },
 ]
 
 image_default	= [
-	{ command = "qimgv", args = [ "--" ], fork = true, silent = true },
+	{ command = "feh", args = [ "--" ], fork = true, silent = true },
 	{ command = "krita", args = [ "--" ], fork = true, silent = true },
 	{ command = "exiftool", confirm_exit = true },
 	{ command = "swappy", args = [ "-f" ], fork = true },
 ]
 
 video_default	= [
-	{ command = "mpv", args = [ "--" ] , fork = true, silent = true },
+	{ command = "vlc", args = [ "--" ] , fork = true, silent = true },
 	{ command = "mediainfo", confirm_exit = true },
 	{ command = "mpv", args = [ "--mute", "on", "--" ], fork = true, silent = true },
 ]
 
 text_default	= [
-	{ command = "micro" },
-	{ command = "gedit", fork = true, silent = true },
-	{ command = "bat", args = [ "--paging=always" ] },
+	{ command = "nvim" },
+	{ command = "hx", fork = true, silent = true },
+	{ command = "vim", args = [ "--paging=always" ] },
 ]
 
 reader_default	= [
