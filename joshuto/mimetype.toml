@@ -18,8 +18,8 @@ video_default	= [
 ]
 
 text_default	= [
-	{ command = "nvim" },
-	{ command = "hx", fork = true, silent = true },
+	{ command = "hx" },
+	{ command = "nvim", fork = true, silent = true },
 	{ command = "vim", args = [ "--paging=always" ] },
 ]
 
