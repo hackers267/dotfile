@@ -197,3 +197,6 @@ discord
 Code Industry
 mpd/log
 mpd/state
+easytag
+mpd/database
+mpd/pid
