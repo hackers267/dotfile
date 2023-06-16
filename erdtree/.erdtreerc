@@ -1,5 +1,5 @@
 --level 3
---sort size-rev
---dirs-first
+--sort rsize
+--dir-order first
 --icons
 --human
