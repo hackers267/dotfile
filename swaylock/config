@@ -1,6 +1,6 @@
 daemonize
+color=003300
 font-size=24
-image=/usr/share/backgrounds/archlinux/sunset.jpg
 indicator-caps-lock
 show-failed-attempts
 font="Jetbrain Mono"
